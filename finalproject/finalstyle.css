@@ -1,0 +1,22 @@
+
+
+h1  {
+  text-align: center;
+}
+
+body {
+  background: purple;
+}
+
+footer  {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.footerlink{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  text-align: justify;
+  font-style: bold;
+}
