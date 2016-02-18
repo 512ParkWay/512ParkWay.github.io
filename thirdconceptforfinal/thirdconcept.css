@@ -7,37 +7,72 @@ img {
   max-width:100%;
 }
 
-h1  {
+a {
   text-align: center;
   padding-top: 5px;
   padding-bottom: 20px;
   font-size: 86px;
-  font-family: gothic;"old english"; blackletter;
   color: white;
   font-style: bold;
   font-family: 'Alegreya SC', serif;
-  margin-top: 0 0 0 0;
+  margin-top: 0 auto;
+  text-decoration: none;
+
   /*margin-bottom: 0;*/
 }
 
-.hiddentitle  {
+/*.hiddentitle  {
   display: none;
 }
 
 
-h1:hover + .hiddentitle  {
+a:hover + .hiddentitle {
   display: block;
   font-family: 'Alegreya SC', serif;
   color: white;
   font-size: 43px;
-  text-align: center;
+
+}*/
+
+span {
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  font-size: 43px;
+  padding: 0 15px 50px 15px;
+  }
+
+
+.link {
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  font-decoration: none;
+  font-size: 22px;
+  margin-bottom: 0;
 }
+
+ul li {
+        margin: 0;
+        padding: 0;
+        display: none;
+
+    }
+
+
+a:hover + nav {
+  display: inline-block;
+  /*position: relative;
+  line-height: 21px;
+  text-align: left;*/
+}
+
+
 
 body {
   background-image: url("./images copy/IMG_5923.jpg");
 }
 
-.homephotos {
+
+/*.homephotos {
   margin: 0 auto;
   padding-left: 410px;
   padding-right: 300px;
@@ -56,7 +91,7 @@ body {
   display: none;
 }
 
-.xochitl:hover {
+.xochitl:hover + .xodroptext {
   display: xodroptext;
 
 }
@@ -85,4 +120,4 @@ footer  {
 .footerlink:hover {
   color: white;
   font-size: 150%;
-}
+}*/
