@@ -7,7 +7,7 @@ h1  {
   padding-top: 20px;
   padding-bottom: 20px;
   font-size: 64px;
-  font-family: gothic;"old english"; blackletter;
+  font-family: 'Alegreya SC', serif;
 }
 
 body {
@@ -33,8 +33,10 @@ body {
   display: none;
 }
 
-.xochitl:hover {
-  display: xodroptext;
+.xochitl:hover + .xodroptext {
+  font-size: 24px;
+  color: white;
+
 
 }
 

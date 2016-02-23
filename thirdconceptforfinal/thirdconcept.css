@@ -50,15 +50,19 @@ span {
   margin-bottom: 0;
 }
 
-ul li {
+section {
         margin: 0;
         padding: 0;
-        display: none;
+        /*display: none;*/
 
     }
 
+.navlist  {
+  display:none;
+}
 
-a:hover + nav {
+
+a:hover + section {
   display: inline-block;
   /*position: relative;
   line-height: 21px;
