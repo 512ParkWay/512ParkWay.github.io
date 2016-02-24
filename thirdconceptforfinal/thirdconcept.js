@@ -2,27 +2,29 @@
 $( document ).ready(function(){
   console.log('hello');
 
-  $('a').hover(function(){
+  $('.title').hover(function(){
     console.log('working?');
     $('.navlist').stop(true,true).slideDown();
+    $('.xotext').slideDown();
 
     $('.homepagenav').mouseleave(function () {
-    $('.navlist').slideUp('slow');
+      $('.navlist').slideUp('medium');
 
   });
 
-
   });
-  $('.xo').hover(function(){
+
+  $('.title').mouseleave(function()  {
+    $('.xotext').slideUp('medium');
+});
+
+  $('.xo').hover(function() {
     $('.xolinks').toggle();
 
-
   });
 
-  $('.aid').mouseover(function(){
-    $('body').css('background-image', 'url ("imagescopy/IMG_6227.jpeg")');
-
-
+  $('.aid').hover(function(){
+    $('body').css('background-image', 'url("imagescopy/IMG_6227.jpeg")');
   });
 
 

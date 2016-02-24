@@ -108,9 +108,9 @@ a:hover + section {
   display: none;
   font-family: 'Alegreya SC', serif;
   color: white;
-  font-size: 16px;
+  font-size: 20px;
+  width: 35%;
   float: right;
-
 }
 
 
