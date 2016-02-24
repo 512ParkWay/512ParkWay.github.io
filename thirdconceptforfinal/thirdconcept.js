@@ -6,11 +6,24 @@ $( document ).ready(function(){
     console.log('working?');
     $('.navlist').stop(true,true).slideDown();
 
-    $('.navlist').hover(function () {
-        navlist.stop(true, true).slideUp(400);
+    $('.homepagenav').mouseleave(function () {
+    $('.navlist').slideUp('slow');
 
-    // $('.navlist').slideUp();
-  })
+  });
+
+
+  });
+  $('.xo').hover(function(){
+    $('.xolinks').toggle();
+
+
+  });
+
+  $('.aid').mouseover(function(){
+    $('body').css('background-image', 'url ("imagescopy/IMG_6227.jpeg")');
+
+
+  });
 
 
 
