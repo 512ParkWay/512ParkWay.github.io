@@ -7,6 +7,14 @@ img {
   max-width:100%;
 }
 
+html {
+  background: url("./imagescopy/IMG_5923.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 a {
   text-align: center;
   padding-top: 5px;
@@ -103,7 +111,7 @@ a:hover + section {
   font-family: 'Alegreya SC', serif;
   color: white;
   font-decoration: none;
-  font-size: 22px;
+  font-size: 25px;
   margin-bottom: 0;
   list-style: none;
 
@@ -113,16 +121,16 @@ a:hover + section {
   display: none;
   font-family: 'Alegreya SC', serif;
   color: white;
-  font-size: 20px;
+  font-size: 22px;
   width: 35%;
   float: right;
 }
 
 
 
-body {
+/*body {
   background-image: url("./imagescopy/IMG_5923.jpg");
-}
+}*/
 
 
 /*.homephotos {
