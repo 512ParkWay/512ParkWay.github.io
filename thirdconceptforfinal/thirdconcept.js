@@ -14,12 +14,13 @@ $( document ).ready(function(){
 
   });
 
-//   $('.title').mouseleave(function()  {
-//     $('.xotext').slideUp('medium');
-// });
+  $('.title').mouseleave(function()  {
+    $('.xotext').slideUp('medium');
+});
 
   $('.xo').hover(function() {
     $('.xolinks').slideDown();
+    $('body').css('background-image', 'url("./imagescopy/IMG_7176.jpg")');
 
   });
 

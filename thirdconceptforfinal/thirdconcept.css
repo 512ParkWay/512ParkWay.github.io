@@ -81,8 +81,13 @@ section {
   transition: all 1s ease;
 }*/
 
+.xomenu{
+  list-style-type: none;
+}
+
 .navlist  {
   display:none;
+  list-style-type: none;
 }
 
 
