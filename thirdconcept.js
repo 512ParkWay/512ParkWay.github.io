@@ -34,7 +34,7 @@ $( document ).ready(function(){
   });
 
   $('.john').hover(function(){
-    $('html').css('background-image', 'url("imagescopy/IMG_7210.JPG")');
+    $('html').css('background-image', 'url("imagescopy/IMG_7210.jpg")');
   });
 
   $('.baby').hover(function(){
