@@ -1,0 +1,184 @@
+
+
+
+
+
+img {
+  max-width:100%;
+}
+
+html {
+  background: url("./imagescopy/IMG_5923.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 20px;
+  font-size: 86px;
+  color: white;
+  font-style: bold;
+  font-family: 'Alegreya SC', serif;
+  margin-top: 0 auto;
+  text-decoration: none;
+
+  /*margin-bottom: 0;*/
+}
+
+/*.hiddentitle  {
+  display: none;
+}
+
+
+a:hover + .hiddentitle {
+  display: block;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  font-size: 43px;
+
+}*/
+
+span {
+  color: white;
+  font-family: 'Alegreya SC', serif;
+  font-size: 43px;
+  padding: 0 15px 50px 15px;
+  }
+
+
+.link {
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  font-decoration: none;
+  font-size: 22px;
+  margin-bottom: 0;
+}
+
+section {
+        margin: 0;
+        padding: 0;
+        /*display: none;*/
+
+    }
+
+
+/*section{
+  position: relative;
+  overflow: hidden;
+  margin: 100px auto;
+  width: 800px;
+  height: 500px;
+  -webkit-box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.3);
+
+}
+
+.section li img {
+  position: absolute;
+  top: 0;
+  left: 800px;
+  z-index: -50;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}*/
+
+.xomenu{
+  list-style-type: none;
+}
+
+.navlist  {
+  display:none;
+  list-style-type: none;
+}
+
+
+a:hover + section {
+  display: inline-block;
+  /*position: relative;
+  line-height: 21px;
+  text-align: left;*/
+}
+
+.xolinks  {
+  display: none;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  font-decoration: none;
+  font-size: 25px;
+  margin-bottom: 0;
+  list-style: none;
+
+}
+
+.xotext{
+  display: none;
+  font-family: 'Alegreya SC', serif;
+  color: white;
+  font-size: 22px;
+  width: 35%;
+  float: right;
+}
+
+
+
+/*body {
+  background-image: url("./imagescopy/IMG_5923.jpg");
+}*/
+
+
+/*.homephotos {
+  margin: 0 auto;
+  padding-left: 410px;
+  padding-right: 300px;
+  padding-bottom: 100px;
+}
+
+.introphoto {
+  max-width: 200px;
+  max-height: 200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  float: left;
+}
+
+.xodroptext {
+  display: none;
+}
+
+.xochitl:hover + .xodroptext {
+  display: xodroptext;
+
+}
+
+.clearfix {
+  clear: left;
+}
+
+footer  {
+  width: 40%;
+  margin: 40px auto;
+}
+
+.footerlink{
+  color: black;
+  text-decoration: none;
+  text-align: center;
+  text-align: justify;
+  font-style: bold;
+}
+
+.footerlinkbar{
+  display: inline;
+}
+
+.footerlink:hover {
+  color: white;
+  font-size: 150%;
+}*/
